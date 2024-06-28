@@ -1,11 +1,11 @@
-const assetsLoader = {
+let assetsLoader = {
     "background": "background",
     "projectile": "projectile_2",
     "platform_1": "platform",
     "platform_2": "platform"
 };
 
-const soundsLoader = {
+let soundsLoader = {
     "background": "background",
     'shoot': 'https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/jump_1.mp3',
     'damage': 'https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/flap_1.wav',
